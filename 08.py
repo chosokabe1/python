@@ -12,4 +12,17 @@ say_hi("tom", 23)
 say_hi("bob", 21)
 say_hi(age = 2)
 
+#関数2
 
+def say_hi2():
+    return "hi"
+    print("hello")
+
+msg = say_hi2()
+print(msg)
+
+def say_hi3():
+    pass
+
+msg = say_hi3
+print(msg)
